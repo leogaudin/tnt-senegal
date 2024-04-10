@@ -63,6 +63,16 @@ export const SideNav = () => {
           variant={isMobile ? "temporary" : "permanent"}
         >
       <Stack component="ul" spacing={0.5} sx={{ listStyle: 'none', p: 0, m: 0 }}>
+            <Typography
+              variant='overline'
+              fontWeight={900}
+              fontSize={'.9rem'}
+              paddingX={2}
+              paddingTop={2}
+              textAlign={'center'}
+            >
+              TnT Senegal 🇸🇳
+            </Typography>
             <Stack
               direction={'column'}
               component="li"
