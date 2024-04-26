@@ -43,10 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* applicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = applicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* tnt-senegalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tnt-senegalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* applicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = applicationTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = application.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* tnt-senegal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tnt-senegal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = application/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = application/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = application/Images.xcassets; sourceTree = "<group>"; };
@@ -187,8 +187,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* application.app */,
-				00E356EE1AD99517003FC87E /* applicationTests.xctest */,
+				13B07F961A680F5B00A75B9A /* tnt-senegal.app */,
+				00E356EE1AD99517003FC87E /* tnt-senegalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,9 +207,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* applicationTests */ = {
+		00E356ED1AD99517003FC87E /* tnt-senegalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "applicationTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "tnt-senegalTests" */;
 			buildPhases = (
 				630429B0FAF582AA62DCE96D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -223,14 +223,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = applicationTests;
+			name = "tnt-senegalTests";
 			productName = applicationTests;
-			productReference = 00E356EE1AD99517003FC87E /* applicationTests.xctest */;
+			productReference = 00E356EE1AD99517003FC87E /* tnt-senegalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* application */ = {
+		13B07F861A680F5B00A75B9A /* tnt-senegal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "application" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "tnt-senegal" */;
 			buildPhases = (
 				1CBC51B6F3A99F180EE272DB /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -245,9 +245,9 @@
 			);
 			dependencies = (
 			);
-			name = application;
+			name = "tnt-senegal";
 			productName = application;
-			productReference = 13B07F961A680F5B00A75B9A /* application.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* tnt-senegal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -267,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "application" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "tnt-senegal" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -280,8 +280,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* application */,
-				00E356ED1AD99517003FC87E /* applicationTests */,
+				13B07F861A680F5B00A75B9A /* tnt-senegal */,
+				00E356ED1AD99517003FC87E /* tnt-senegalTests */,
 			);
 		};
 /* End PBXProject section */
@@ -494,7 +494,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* application */;
+			target = 13B07F861A680F5B00A75B9A /* tnt-senegal */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -524,7 +524,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.leogaudin.tnt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/application.app/application";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tnt-senegal.app/tnt-senegal";
 			};
 			name = Debug;
 		};
@@ -549,7 +549,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.leogaudin.tnt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/application.app/application";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tnt-senegal.app/tnt-senegal";
 			};
 			name = Release;
 		};
@@ -577,8 +577,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.leogaudin.tntnigeria;
-				PRODUCT_NAME = application;
+				PRODUCT_BUNDLE_IDENTIFIER = org.leogaudin.tntsenegal;
+				PRODUCT_NAME = "tnt-senegal";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -610,7 +610,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.leogaudin.tntsenegal;
-				PRODUCT_NAME = application;
+				PRODUCT_NAME = "tnt-senegal";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -765,7 +765,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "applicationTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "tnt-senegalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -774,7 +774,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "application" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "tnt-senegal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -783,7 +783,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "application" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "tnt-senegal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
