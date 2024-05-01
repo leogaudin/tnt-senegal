@@ -1,6 +1,17 @@
 import { Home as HomeIcon, Inventory as InventoryIcon, QrCodeScanner as QrCodeScannerIcon, IosShare as IosShareIcon, Delete as DeleteIcon } from '@mui/icons-material'
 import i18n from './language';
 
+export const boxFields = [
+	'project',
+	'academicInspection',
+	'educationAndTrainingInspection',
+	'commune',
+	'school',
+	'administrativeCode',
+	'directorName',
+	'directorPhone',
+];
+
 export function getItems() {
 	return [
 		{
