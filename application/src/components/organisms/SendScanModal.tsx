@@ -50,7 +50,7 @@ export default function SendScanModal({modalVisible, setModalVisible, data}: Res
       error => {
         switch (error.code) {
           case 3:
-            showToast('error', 'Timeout', 'The location search has timed out.');
+            showToast('error', 'Timeout', 'Timeout de la recherche de la position');
             break;
         }
       },
@@ -113,14 +113,14 @@ export default function SendScanModal({modalVisible, setModalVisible, data}: Res
                   </View>
                   : false
                 ) : (
-                  <Text>Determining current location...</Text>
+                  <Text>Localisation en cours...</Text>
                 )}
                 <TextInput
                   mode='outlined'
                   value={comment}
                   onChangeText={text => setComment(text)}
                   style={{width: '100%'}}
-                  placeholder='Add a comment...'
+                  placeholder='Ajouter un commentaire...'
                   maxLength={140}
                 />
                 <View
@@ -135,7 +135,7 @@ export default function SendScanModal({modalVisible, setModalVisible, data}: Res
                     style={{marginRight: 10}}
                     tintColors={{true: '#007AFF', false: '#C7C7CC'}}
                   />
-                  <Text>Mark as received (HT only)</Text>
+                  <Text>Marquer comme reçu (réservé au directeur)</Text>
                 </View>
                 <View style={[styles.horizontal,]}>
                   <Button
@@ -174,12 +174,12 @@ export default function SendScanModal({modalVisible, setModalVisible, data}: Res
                         storeOfflineData(dataToSend);
                         showToast(
                           'info',
-                          'No internet connection',
-                          'Scan will be sent when connection is restored',
+                          'Pas de connexion internet',
+                          'Le scan sera envoyé dès que la connexion sera rétablie',
                         );
                       }
                     }}>
-                      Send
+                      Envoyer
                   </Button>
                 </View>
               </View>

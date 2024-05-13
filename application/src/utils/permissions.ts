@@ -7,8 +7,8 @@ export const requestCameraPermission = async (): Promise<boolean> => {
       const result = await PermissionsAndroid.request(
         PermissionsAndroid.PERMISSIONS.CAMERA,
         {
-          title: 'Camera permission required',
-          message: 'We need to access your camera for scanning QR Codes',
+          title: 'Accès à la caméra requis',
+          message: 'Nous avons besoin d\'accéder à votre caméra pour scanner les QR Codes',
           buttonNeutral: undefined,
           buttonNegative: undefined,
           buttonPositive: 'OK',
@@ -32,8 +32,8 @@ export const requestLocationPermission = async (): Promise<boolean> => {
       const result = await PermissionsAndroid.request(
         PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
         {
-          title: 'Location permission required',
-          message: 'We need to access your location for scanning QR Codes',
+          title: 'Accès à la localisation requis',
+          message: 'Nous avons besoin d\'accéder à votre localisation pour envoyer les scans',
           buttonNeutral: undefined,
           buttonNegative: undefined,
           buttonPositive: 'OK',

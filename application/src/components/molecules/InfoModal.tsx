@@ -25,7 +25,7 @@ const InfoModal: React.FC<InfoModalProps> = ({ visible, onClose, title, children
                   mode='outlined'
                   style={{margin: 20}}
                 >
-                    Close
+                    Fermer
                 </Button>
               </TouchableOpacity>
             </View>

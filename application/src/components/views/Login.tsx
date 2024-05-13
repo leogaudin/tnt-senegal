@@ -34,13 +34,13 @@ export default function Login(this: any) {
             accessible={false}>
             <View style={styles.modalContainer}>
               <View style={styles.modal}>
-                <Text style={styles.title}>Enter your phone number</Text>
+                <Text style={styles.title}>Entrez votre numéro de téléphone</Text>
                 <PhoneInput
                   style={{width: '100%'}}
                   ref={ref => this.phone = ref}
                   allowZeroAfterCountryCode={true}
-                  initialCountry='fr'
-                  initialValue='+33742424242'
+                  initialCountry='sn'
+                  initialValue='+2211234567890'
                   autoFormat={true}
                   textProps={{
                       style: {
@@ -66,7 +66,7 @@ export default function Login(this: any) {
                     setLogin(number);
                   }}
                   disabled={!isNumberValid || number === ''}>
-                    Login
+                    Se connecter
                 </Button>
               </View>
             </View>

@@ -23,7 +23,7 @@ export default function AskPermissions() {
               textAlign: 'center',
               fontSize: 20,
             }}>
-            This application needs access to the camera and location to launch. Please allow access to both and restart.
+            Cette application a besoin d'accéder à la caméra et à la localisation pour démarrer. Veuillez autoriser l'accès aux deux et redémarrer si cette page s'affiche toujours.
           </Text>
           <Button
             style={{marginVertical: 15}}

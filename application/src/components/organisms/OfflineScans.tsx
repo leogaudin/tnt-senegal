@@ -27,7 +27,7 @@ export default function OfflineScans({ visible, onClose }: OfflineScansProps) {
 
   return (
     <InfoModal
-      title={'Offline scans'}
+      title={'Scans hors ligne'}
       visible={visible}
       onClose={onClose}
       children={
@@ -63,11 +63,11 @@ export default function OfflineScans({ visible, onClose }: OfflineScansProps) {
                 }}
                 disabled={!hasInternetConnection}
                 style={{ marginTop: 20}}>
-                Send offline scans
+                Envoyer les scans hors ligne
               </Button>
             </View>
           ) : (
-            <Text style={{ textAlign: 'center' }}>No offline scans</Text>
+            <Text style={{ textAlign: 'center' }}>Pas de scans</Text>
           )}
         </View>
       }
