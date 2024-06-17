@@ -50,7 +50,11 @@ export default function SendScanModal({modalVisible, setModalVisible, data}: Res
       error => {
         switch (error.code) {
           case 3:
-            showToast('error', 'Timeout', 'Timeout de la recherche de la position');
+            showToast(
+              'error',
+              'Timeout',
+              'Timeout de la recherche de la position'
+            );
             break;
         }
       },
