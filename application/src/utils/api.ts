@@ -11,8 +11,8 @@ export function sendScan(data: {}) {
         if (response.status >= 200 && response.status < 300) {
           showToast(
             'success',
-            'Success!',
-            'Scan sent successfully',
+            'OK !',
+            'Scan envoyé avec succès',
           );
           resolve(response.data);
         } else {
@@ -24,8 +24,8 @@ export function sendScan(data: {}) {
       .catch(error => {
         showToast(
           'error',
-          'Error!',
-          'Scan could not be sent',
+          'Erreur !',
+          'Le scan n\'a pas pu être envoyé',
         );
         reject(error);
       });
