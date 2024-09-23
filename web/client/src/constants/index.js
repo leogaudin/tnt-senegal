@@ -1,4 +1,4 @@
-import { Home as HomeIcon, Inventory as InventoryIcon, QrCodeScanner as QrCodeScannerIcon, IosShare as IosShareIcon, Delete as DeleteIcon } from '@mui/icons-material'
+import { Home as HomeIcon, Inventory as InventoryIcon, QrCodeScanner as QrCodeScannerIcon, IosShare as IosShareIcon, Delete as DeleteIcon, Settings as SettingsIcon } from '@mui/icons-material'
 import i18n from './language';
 
 export const boxFields = [
@@ -38,6 +38,11 @@ export function getItems() {
 			title: i18n.t('delete'),
 			path: '/delete',
 			icon: <DeleteIcon />
+		},
+		{
+			title: i18n.t('advanced'),
+			path: '/advanced',
+			icon: <SettingsIcon />
 		},
 	];
 }

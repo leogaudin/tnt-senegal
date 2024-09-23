@@ -165,6 +165,7 @@ i18n
 					directorName: 'Director Name',
 					directorPhone: 'Director Phone',
 					school: 'School',
+					advanced: 'Advanced',
 				}
 			},
 			fr: {
@@ -316,6 +317,7 @@ i18n
 					directorName: 'Nom du Directeur',
 					directorPhone: 'Téléphone du Directeur',
 					school: 'École',
+					advanced: 'Avancé',
 				},
 			},
 			wo: {
@@ -467,6 +469,7 @@ i18n
 					directorName: 'Nguur direktar',
 					directorPhone: 'Tel direktar',
 					school: 'Ecole',
+					advanced: 'Dëgg ak def',
 				},
 			},
 		},
