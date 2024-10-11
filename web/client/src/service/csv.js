@@ -15,7 +15,7 @@ function parseCSV(text, setUploadProgress, setResults, setIsLoading, setComplete
 		worker: true,
 		skipEmptyLines: true,
 		step: (element) => {
-			const [project, academicInspection, educationAndTrainingInspection, commune, school, administrativeCode, directorName, directorPhone, schoolLatitude, schoolLongitude] = element.data;
+			const [project, academicInspection, educationAndTrainingInspection, commune, school, administrativeCode, directorName, directorPhone, latitude, longitude] = element.data;
 			const newBox = {
 				id: '',
 				project,
@@ -26,8 +26,8 @@ function parseCSV(text, setUploadProgress, setResults, setIsLoading, setComplete
 				administrativeCode,
 				directorName,
 				directorPhone,
-				schoolLatitude: parseFloat(schoolLatitude),
-				schoolLongitude: parseFloat(schoolLongitude),
+				schoolLatitude: parseFloat(latitude.replace(',', '.')),
+				schoolLongitude: parseFloat(longitude.replace(',', '.')),
 				adminId: user.id,
 				createdAt: new Date().getTime()
 			};
