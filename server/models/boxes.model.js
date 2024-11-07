@@ -3,13 +3,13 @@ const Schema = mongoose.Schema;
 
 const boxFields = {
 	project: { type: String, required: true },
-	division: { type: String, required: false },
-	district: { type: String, required: true },
-	zone: { type: String, required: false },
+	academicInspection: { type: String, required: false },
+	educationAndTrainingInspection: { type: String, required: false },
+	commune: { type: String, required: true },
 	school: { type: String, required: true },
-	htName: { type: String, required: false },
-	htPhone: { type: String, required: false },
-	schoolCode: { type: String, required: false },
+	administrativeCode: { type: String, required: false },
+	directorName: { type: String, required: false },
+	directorPhone: { type: String, required: false },
 };
 
 const Box = new Schema(

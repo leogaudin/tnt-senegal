@@ -2,8 +2,8 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 export const languages = [
-	{ label: 'English', code: 'en' },
 	{ label: 'Français', code: 'fr' },
+	{ label: 'English', code: 'en' },
 ];
 
 i18n
@@ -114,6 +114,12 @@ i18n
 					copied: 'Copied!',
 					accessLink: 'Access link',
 					total: 'Total',
+					academicInspection: 'AI',
+					educationAndTrainingInspection: 'ETI',
+					commune: 'Commune',
+					administrativeCode: 'Admin Code',
+					directorName: 'Director',
+					directorPhone: 'Director Phone',
 				},
 			},
 			fr: {
@@ -215,6 +221,12 @@ i18n
 					copied: 'Copié !',
 					accessLink: 'Lien d\'accès',
 					total: 'Total',
+					academicInspection: 'IA',
+					educationAndTrainingInspection: 'IEF',
+					commune: 'Commune',
+					administrativeCode: 'Code Admin',
+					directorName: 'Directeur',
+					directorPhone: 'Téléphone du directeur',
 				},
 			},
 		},
