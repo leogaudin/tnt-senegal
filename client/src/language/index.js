@@ -9,7 +9,7 @@ export const languages = [
 i18n
 	.use(initReactI18next)
 	.init({
-		lng: 'en',
+		lng: 'fr',
 		fallbackLng: 'en',
 		interpolation: {
 			escapeValue: false,
