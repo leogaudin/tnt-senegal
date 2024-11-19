@@ -132,6 +132,7 @@ i18n
 					validatedDate: 'Validated Date',
 					latitude: 'Latitude',
 					longitude: 'Longitude',
+					customSearch: 'Custom search',
 				},
 			},
 			fr: {
@@ -251,6 +252,7 @@ i18n
 					validatedDate: 'Date du scan Validé',
 					latitude: 'Latitude',
 					longitude: 'Longitude',
+					customSearch: 'Recherche personnalisée',
 				},
 			},
 		},
