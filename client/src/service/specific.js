@@ -41,7 +41,7 @@ export const boxFields = {
 // - UpdateGPS.jsx
 // - csv.js
 export const gpsUpdateFields = [
-	'schoolCode',
+	'administrativeCode',
 ]
 
 // Fields that characterize a school in the Delivery report
@@ -49,7 +49,8 @@ export const gpsUpdateFields = [
 // - Report.jsx
 export const reportFields = [
 	'school',
-	'district',
+	'educationAndTrainingInspection',
+	'academicInspection',
 ]
 
 // Keys that should not be available to the user (e.g. when filtering)
