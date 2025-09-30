@@ -193,7 +193,7 @@ export async function updateGPSCoordinates(file, setOutput) {
 			const responses = [];
 
 			const processBuffer = (buffer) => {
-				callAPI('POST', 'boxes/coords', { boxes: buffer })
+				callAPI('POST', 'boxes/coords', { coords: buffer })
 					.then((res) => {
 						if (res.status >= 400)
 							throw new Error(res.statusText);
