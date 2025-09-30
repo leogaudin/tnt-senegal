@@ -184,7 +184,7 @@ export async function updateGPSCoordinates(file, setOutput) {
 				];
 			});
 
-			const BUFFER_LENGTH = 75;
+			const BUFFER_LENGTH = 50;
 			const numBoxes = boxes.length;
 			let uploaded = 0;
 			let uploadedBytes = 0;
