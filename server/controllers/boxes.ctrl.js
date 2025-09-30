@@ -158,7 +158,7 @@ router.post('/boxes/coords', async (req, res) => {
 					return boxFromRequest.schoolLatitude !== box.schoolLatitude || boxFromRequest.schoolLongitude !== box.schoolLongitude;
 				})
 				.map((box) => {
-					const boxFromRequest = boxes.find((b) => b.school === box.school && b.district === box.district);
+					const boxFromRequest = boxes.find((b) => b.administrativeCode === box.administrativeCode);
 					const newScans = box.scans.map((scan) => {
 						const schoolCoords = {
 							latitude: boxFromRequest.schoolLatitude,
