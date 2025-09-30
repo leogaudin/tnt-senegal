@@ -151,7 +151,7 @@ router.post('/boxes/coords', async (req, res) => {
 				.find(
 					{
 						adminId: admin.id,
-						$or: boxes.map((box) => ({ school: box.school, district: box.district }))
+						$or: coords.map((box) => ({ school: box.school, district: box.district }))
 					},
 					{ schoolLatitude: 1, schoolLongitude: 1, id: 1, _id: 0 }
 				);
